@@ -1,16 +1,13 @@
-const localPgConnection = {
-  host: "localhost",
-  database: "instagram",
-  user: "victor",
-  password: "pass"
-};
-
-const dbConnection = process.env.DATABASE_URL || localPgConnection;
-
 module.exports = {
   development: {
     client: "pg",
-    connection: dbConnection + "?ssl=true",
+    connection: {
+      host: process.env.DB_TEST_HOST || "localhost",
+      database: process.env.DB_TEST_DATABASE || "rxid",
+      user: process.env.DB_TEST_USER || "admin",
+      password: process.env.DB_TEST_PASSWORD || "pass",
+      port: process.env.DB_TEST_PORT || "5432"
+    },
     pool: {
       min: 2,
       max: 10
