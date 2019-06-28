@@ -43,7 +43,7 @@ If you would like to make a request to the profiles endpoint, a valid **JSON web
 
 # Description <a name="description"></a>
 
-This project is a RESTful API built using Node and Express. The purpose of this project is to provide a Backend for my Insta-Clone client. User registration, login, post and comment creation, liking, deleting, fetching, or editing, are all handled here. This project was deployed on `Heroku`.
+This project is a RESTful API built using Node and Express. The purpose of this project is to provide a Backend for my Insta-Clone client. User registration, login, post and comment creation, liking, deleting, fetching, or editing, are all handled here. This project was deployed using `AWS Elastic Beanstalk` and `CloudFront`.
 
 - The server is run using Node.
 - Express is a minimalist Node web application framework for building APIs.
