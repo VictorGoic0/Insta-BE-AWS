@@ -16,7 +16,7 @@
 
 # Deployment <a name="deployment"></a>
 
-- [Backend Deployment](https://goico-insta-backend.herokuapp.com/)
+- [Backend Deployment](https://d1so57btp4q8d8.cloudfront.net/)
 
 # Dependencies Used <a name="depUsed"></a>
 
