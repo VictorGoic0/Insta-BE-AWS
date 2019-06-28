@@ -936,5 +936,3 @@ If the user had already liked this post and is now disliking it:
 | post_id    | integer   | required, FK referring to PK of posts table    |
 | created_at | date      | auto-generated                                 |
 | updated_at | date      | auto-generated                                 |
-
-TESTING PIPELINE
